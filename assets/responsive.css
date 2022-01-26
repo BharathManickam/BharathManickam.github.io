@@ -223,12 +223,33 @@ ul.dropdown li a {
  @media (max-width: 767px) {
 
 /*Counter*/
+.dash {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .dash .digit {
-  font-size: 2em;
+  font-size: 24px;
   height: 25px;
 }
 .the-heart-single-counter h3 {
   font-size: 0.9em;
+  margin: 0;
+  width: 100%;
+}
+
+.the-heart-welcome-content h4 {
+  font-size: 24px;
+}
+.black-overly .the-heart-floral-txt h3 {
+  font-size: 30px;
+}
+.the-heart-introduction-wraper {
+  background-position: center;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
  /* dropdown menu*/
@@ -289,7 +310,8 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
   top:0px;
 }
 .the-heart-welcome-content h1 {
-  font-size: 3.667em;
+  font-size: 60px;
+  margin: 0 0 44px;
 }
 .the-heart-welcome-tbl-c {
   width: 100%;
@@ -318,12 +340,10 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
   margin-bottom: 50px;
 }
 .the-heart-welcome-section {
-  height: 650px;
+  height: 100vh !important;
+  min-height: 600px;
 }
 .the-heart-single-slider {
-  height: 650px;
-}
-.the-heart-welcome-tbl {
   height: 650px;
 }
 .the-heart-single-blog-post-section .the-heart-intruduction-content-img img {
@@ -334,9 +354,10 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
   font-size: .838em;
 }
 .the-heart-intruduction-content-txt h3 {
-  font-size: 1.667em;
+  font-size: 45px;
 }
 .the-heart-single-introduction{
+  width: 100%;
   margin-bottom: 50px;
 }
 .the-heart-introduction-section.section-padding {
@@ -377,7 +398,10 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
   padding: 100px 0;
 }
 .the-heart-footer-section {
-  padding: 150px 0;
+  padding: 160px 0;
+}
+.the-heart-footer-section > .container + div > div {
+  height: 320px !important;
 }
 .the-heart-inner-welcome-section >div > div > div > div {
   height: 400px;
@@ -540,9 +564,6 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
 }
 
 /*Banner*/
-.the-heart-welcome-content h1 {
-  font-size: 2.667em;
-}
 .the-heart-inner-welcome-section >div > div > div > div {
   height: 300px;
 }
@@ -566,9 +587,6 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
 .the-heart-spilt-container {
   width: 100%;
 }
-.the-heart-intruduction-content-img img {
-  display: none;
-}
 .the-heart-single-introduction:nth-child(2n) .the-heart-intruduction-content-txt {
   text-align: center;
 }
@@ -579,7 +597,10 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
   display: none;
 }
 .the-heart-wdding-venu-content h2 {
-  font-size: 2em;
+  font-size: 32px;
+}
+.the-heart-wedding-venue {
+    padding: 40px 0 0 0;
 }
 .the-heart-wedding-palace-address h4 {
   font-size: 2em;
@@ -626,9 +647,6 @@ header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
 }
 .the-heart-footer-content h2 {
   font-size: 3em;
-}
-.the-heart-footer-section {
-  padding: 100px 0;
 }
 /*.the-heart-attending-content-inner {
   display: block;

@@ -110,9 +110,11 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 .the-heart-welcome-tbl-c {
   left: 50%;
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   z-index: 2;
+  width: 100%;
+  max-width: 1140px;
 }
 .the-heart-tbl {
 	display: table;
@@ -521,7 +523,7 @@ header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
 .the-heart-floral-txt:after {
 	background-image: url(floeal-txt-bg-2.png);
 	top: inherit;
-	bottom: -20px;
+	bottom: -30px;
 }
 .the-heart-floral-txt h3 {
 	margin: 0;
@@ -531,6 +533,8 @@ header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
 
 .black-overly .the-heart-floral-txt h3{
 	color: #fff;
+    font-size: 32px;
+    line-height: 1;
 }
 
 .the-heart-date-couuntdown {
@@ -1180,8 +1184,8 @@ canvas {
 .tiny-heart {
   position: absolute;
   opacity: 0;
-  background-color: #D90429;
-  box-shadow: 0px 0px 50px 4px rgba(239, 35, 60, 0.7);
+  background-color: #96327D;
+  box-shadow: 0px 0px 50px 4px rgba(150, 50, 125, 0.7);
   animation: animated-heart infinite ease-in;
 }
 .tiny-heart:before, .tiny-heart:after {
@@ -1192,7 +1196,7 @@ canvas {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #D90429;
+  background-color: #96327D;
 }
 .tiny-heart:before {
   transform: translateX(-50%);
@@ -1380,7 +1384,6 @@ canvas {
 	left: 0;
 	height: 115px;
 	width: 100%;
-	background-image: url(paper-effect--top.png);
 	background-repeat: repeat-x;
 	background-position: top center;
 	background-size: contain;
@@ -1389,7 +1392,6 @@ canvas {
 .the-heart-paper-effect-bg:after {
 	top: inherit;
 	bottom: 0;
-	background-image: url(paper-effect--bottom.png);
 	background-position: bottom center;
 }
 .the-heart-wdding-venu-content {
@@ -1421,7 +1423,6 @@ canvas {
 	left: 0;
 	width: 100%;
 	height: 21px;
-	background-image: url(weddin-venue-floral.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 50%;

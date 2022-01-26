@@ -52,10 +52,10 @@ if($('#loded').length>0) {
 
 $('#loded').vegas({
     slides: [
-        { src: 'img/accommodation-bg.jpg' },
-        { src: 'img/the-heart-welcome-bg.jpg' },
-        { src: 'img/the-heart-welcome-bg-2.jpg' },
-         { src: 'img/the-heart-welcome-bg-3.jpg' }
+        { src: 'assets/slider-1.jpg' },
+        { src: 'assets/slider-2.jpg' },
+        { src: 'assets/slider-3.jpg' },
+        { src: 'assets/slider-4.jpg' }
     ],
     animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
 });
@@ -272,11 +272,11 @@ if($('.wow').length > 0) {
 if($('#heart_countdown').length > 0) {
   $('#heart_countdown').countDown({
     targetDate: {
-      'day':    12,
-      'month':  3,
-      'year':   2018,
-      'hour':   11,
-      'min':    13,
+      'day':    14,
+      'month':  2,
+      'year':   2022,
+      'hour':   5,
+      'min':    0,
       'sec':    0
     },
     omitWeeks: true
